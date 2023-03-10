@@ -10,5 +10,5 @@ function diceThrow(){
   setTimeout(() => {
     dice.classList.remove('dice-animate')
     dice.src = diceImg[random]
-  }, 500)  
+  }, 500)  //
 }
