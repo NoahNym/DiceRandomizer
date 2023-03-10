@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+button:hover{
+    scale: 1.05;
+}
+
+button:active{
+    scale: 0.95;
+}
+
+.dice-animate {
+    animation: dice-rotate 0.5s linear infinite;
+  }
+  
+  @keyframes dice-rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
